@@ -15,7 +15,6 @@ int main(int argc, char* argv[])
         cout << "Error on arguments";
         exit(-1);
     }
-    int k = 9;
     cout << "pre-order" << endl;
     coprime_print_preorder(atoi(argv[1]),2,1);
     coprime_print_preorder(atoi(argv[1]),3,1);
