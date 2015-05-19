@@ -1,0 +1,10 @@
+The selection sort is stable if it is comparing the the equal elements to each other,
+but not necessarily true on other cases.
+
+sorting: 
+9(1st 9) 9(2nd 9) 4 10 3
+3 9(2nd 9) 4 10 9(1st 9)
+3 4 9(2nd 9) 10 9(1st 9)
+3 4 9(2nd 9) 9(1st 9) 10
+they do not keep relative order
+
