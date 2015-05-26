@@ -1,0 +1,3 @@
+Hash tables are faster than trees at inserting and searching but
+take up more memory than a tree. An important thing to test for would 
+been how much memory each requires.
